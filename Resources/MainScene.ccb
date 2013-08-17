@@ -718,8 +718,6 @@
 						</array>
 					</dict>
 				</array>
-				<key>selected</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>baseClass</key>
@@ -3607,7 +3605,7 @@ It's a whole new world, and a promising world for sure :)</string>
 						<key>type</key>
 						<string>Text</string>
 						<key>value</key>
-						<string>( Game, Service, Book, Site, Resume, Component, Tool ... )</string>
+						<string>( Game, Service, Book, Site, Component, Tool ... )</string>
 					</dict>
 				</array>
 			</dict>

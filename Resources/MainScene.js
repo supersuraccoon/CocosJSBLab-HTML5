@@ -223,6 +223,10 @@ MainScene.prototype.onNextWork = function() {
 	this.updateWork();
 };
 
+MainScene.prototype.onMyBlog = function() {	
+	window.open("http://www.supersuraccoon-cocos2d.com/");
+};
+
 MainScene.prototype.updateWork = function() {
 	
 	if (this.preWork != this.currentWork) {
@@ -281,7 +285,7 @@ MainScene.prototype.handleMouseMove = function (location) {
 		if (!this.hoverFaceImageArea) {
 			this.bubbleSprite.setOpacity(255);
 			cc.MenuItemFont.setFontSize(14);
-			var checkMyBolgItem = cc.MenuItemFont.create("To My Blog", this.github, this);	
+			var checkMyBolgItem = cc.MenuItemFont.create("To My Blog", this.onMyBlog, this);	
 		    checkMyBolgItem.setColor(cc.BLACK);
 		    var menu4 = cc.Menu.create(checkMyBolgItem);
 			menu4.setPosition(this.bubbleLabel.getPosition());
