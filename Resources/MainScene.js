@@ -167,11 +167,11 @@ MainScene.prototype.onDidLoadFromCCB = function() {
 		"http://www.supersuraccoon-cocos2d.com/CocosJSBLab/DollarRecognizerDemo-HTML5/", 
 		"http://www.supersuraccoon-cocos2d.com/CocosJSBLab/ResumeDemo-HTML5/",
 		"http://www.supersuraccoon-cocos2d.com/CocosJSBLab/CocosCLIDemo-HTML5/",
-		"Later",
-		"Later",
-		"Later",
-		"Later",
-		"Later",
+		"In Progress",
+		"http://www.supersuraccoon-cocos2d.com/CocosJSBLab/Cocos2dHtml5-Book/A%20trip%20from%20cocos2d-iphone%20to%20cocos2d-html5.pdf",
+		"In Progress",
+		"Cocos2d-x version Only!!!",
+		"In Progress",
 		"Your are visiting it :)");
 
 	this.githubURLArray = new Array(
@@ -182,9 +182,9 @@ MainScene.prototype.onDidLoadFromCCB = function() {
 		"https://github.com/supersuraccoon/ResumeDemo-HTML5/",
 		"https://github.com/supersuraccoon/CocosCLIDemo-HTML5/",
 		"Later",
+		"This a book, no source code :)",
 		"Later",
-		"Later",
-		"Later",
+		"https://github.com/supersuraccoon/SpiderMonkeyMix-Cocos2dx/",
 		"Later",
 		"https://github.com/supersuraccoon/CocosJSBLab-HTML5/");
 		
