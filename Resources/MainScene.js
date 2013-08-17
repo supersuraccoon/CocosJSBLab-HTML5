@@ -166,7 +166,7 @@ MainScene.prototype.onDidLoadFromCCB = function() {
 		"http://www.supersuraccoon-cocos2d.com/CocosJSBLab/CalendarDemo-HTML5/", 
 		"http://www.supersuraccoon-cocos2d.com/CocosJSBLab/DollarRecognizerDemo-HTML5/", 
 		"http://www.supersuraccoon-cocos2d.com/CocosJSBLab/ResumeDemo-HTML5/",
-		"Later",
+		"http://www.supersuraccoon-cocos2d.com/CocosJSBLab/CocosCLIDemo-HTML5/",
 		"Later",
 		"Later",
 		"Later",
@@ -180,13 +180,13 @@ MainScene.prototype.onDidLoadFromCCB = function() {
 		"https://github.com/supersuraccoon/CalendarDemo-HTML5/", 
 		"https://github.com/supersuraccoon/DollarRecognizerDemo-HTML5/", 
 		"https://github.com/supersuraccoon/ResumeDemo-HTML5/",
+		"https://github.com/supersuraccoon/CocosCLIDemo-HTML5/",
 		"Later",
 		"Later",
 		"Later",
 		"Later",
 		"Later",
-		"Later",
-		"");
+		"https://github.com/supersuraccoon/CocosJSBLab-HTML5/");
 		
 	this.updateWork();
 };
