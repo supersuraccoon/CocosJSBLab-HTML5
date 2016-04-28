@@ -241,7 +241,7 @@ MainScene.prototype.updateWork = function() {
 
 MainScene.prototype.handleMouseMove = function (location) {
     var winSize = cc.Director.getInstance().getWinSize();
-	if (cc.Rect.CCRectContainsPoint(this.liveDemoArea.getBoundingBox(), location)) {
+	if (cc.rectContainsPoint(this.liveDemoArea.getBoundingBox(), location)) {
 		if (!this.hoverLiveDemoArea) {
 			this.liveDemoArea.setColor(cc.ORANGE);
 			this.hoverLiveDemoArea = true;
@@ -254,7 +254,7 @@ MainScene.prototype.handleMouseMove = function (location) {
 		}
 	}
 	
-	if (cc.Rect.CCRectContainsPoint(this.githubArea.getBoundingBox(), location)) {
+	if (cc.rectContainsPoint(this.githubArea.getBoundingBox(), location)) {
 		if (!this.hoverGithubArea) {
 			this.githubArea.setColor(cc.ORANGE);
 			this.hoverGithubArea = true;
@@ -267,7 +267,7 @@ MainScene.prototype.handleMouseMove = function (location) {
 		}
 	}
 	
-	if (cc.Rect.CCRectContainsPoint(this.imageArea.getBoundingBox(), location)) {
+	if (cc.rectContainsPoint(this.imageArea.getBoundingBox(), location)) {
 		if (!this.hoverImageArea) {
 			this.workSpriteArray[this.currentWork - 1].runAction(cc.ScaleBy.create(0.5, 1.5));
 			this.hoverImageArea = true;
@@ -281,7 +281,7 @@ MainScene.prototype.handleMouseMove = function (location) {
 		}
 	}
 	
-	if (cc.Rect.CCRectContainsPoint(this.faceImage.getBoundingBox(), location)) {
+	if (cc.rectContainsPoint(this.faceImage.getBoundingBox(), location)) {
 		if (!this.hoverFaceImageArea) {
 			this.bubbleSprite.setOpacity(255);
 			cc.MenuItemFont.setFontSize(14);
